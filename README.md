@@ -55,21 +55,6 @@ Poderá ser enviado um JSON contendo vários sensores no payload:
                 {
                     "signal": "{signal_id}",
                     "value": "{value}"
-                },
-                {
-                    "signal": "{signal_id}",
-                    "value": "{value}",
-                    "unity": "V"
-                }
-            ]
-        },
-        {
-            "sensorId": "{sensor_id}",
-            "status": "{status_sensor}",
-            "signals": [
-                {
-                    "signal": "{signal_id}",
-                    "value": "{value}"
                 }
             ]
         }
