@@ -3,7 +3,7 @@
 Para publicar via MQTT é necessário ter os dados como o modelo de configuração abaixo:
 
 ```
-host: mqtts:\\test-mqtt.siot.konztec.com:8883
+host: mqtts://test-mqtt.siot.konztec.com:8883
 username: guest
 password: 123
 ```
