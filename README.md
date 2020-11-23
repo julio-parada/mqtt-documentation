@@ -46,7 +46,7 @@ Poderá ser enviado um JSON contendo vários sensores no payload:
 ```
 {
     "idMachine": "{maquina_id}",
-    "date": "{}",
+    "date": "{date_dispositivo}",
     "sensors": [
         {
             "sensorId": "{sensor_id}",
@@ -64,8 +64,7 @@ Poderá ser enviado um JSON contendo vários sensores no payload:
 ```
 
 Onde os parâmetros `{maquina_id}`, `{sensor_id}`, `{signal_id}` são de acordo com o cadastrado no portal S.IoT.
-`{status_sensor}` o estado atual do sensor sendo possível enviar uma das opções a frente: <strong>'`active`','`active`','`problem`'</strong>.
-E `{value}` e o valor do sinal.
+`{status_sensor}` o estado atual do sensor sendo possível enviar uma das opções a frente: <strong>'`active`','`active`','`problem`'</strong>. E a `{data_dispositivo}` data/hora do dispositivo e o `{value}` valor do sinal.
 
 ##### <strong>Exemplo</strong>:
 
